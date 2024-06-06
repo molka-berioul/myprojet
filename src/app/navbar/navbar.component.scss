@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+  
+    padding: 20px 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #2f0566(24, 29, 121);
+ 
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2f0566(24, 29, 121);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 30px;
+    font-size: 40px;
+}
+nav a {
+    color: #060606;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav  li a:hover {
+    text-decoration: underline;
+}

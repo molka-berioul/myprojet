@@ -1,0 +1,59 @@
+
+<form>
+    <h1>Inscription</h1>
+    <fieldset>
+    <p>
+        <label for="Nom">Nom Complet</label>:
+        <input type="text" name="Prénom" id="Prénom" size="20" maxlength="10" placeholder="Prénom" />
+        <input type="text" name="Nom de famille" id="Nom de famille" size="20" maxlength="10" placeholder="Nom de famille"/>
+    </p>
+    <p>
+        <label>Genre</label> :
+        <input type="radio" name="Genre" id="homme" />
+        <label for="homme">homme</label>
+        <input type="radio" name="Genre" id="femme" />
+        <label for="femme">femme</label></p>
+        <p>
+        <label for="date">Date de naissance</label> :
+        <input type="date" name="date" id="date" />
+        
+    </p>
+     </fieldset>
+    <fieldset>
+       
+    
+    <p>
+        <label for="ville">ville</label> :
+        <input type="text" name="ville" id="ville" size="30" maxlength="60"/>
+        <label for="Département">Département</label> :
+        <input type="text" name="Département" id="Département" size="30" maxlength="60"/>
+    </p>
+   
+    </fieldset>
+    <fieldset>
+        
+    <p>
+        <label for="email">E-mail</label> :
+        <input type="email" name="email" id="email" placeholder="Ex:monadresse@gmail.com" />
+    </p>
+    <p>
+        <label for="site" >Donner votre site web</label> :
+        <input type="url" name="site" id="site" placeholder="fcb / insta ..."/>
+    </p>
+    <p>
+        <label for="tel">Donner votre tel</label> :
+        <input type="tel" name="tel" id="tel" placeholder="Ex:00 000 000" min="0" max="9" />
+    </p>
+    </fieldset>
+    <fieldset>
+       
+    <p>
+        <label for="pass">Mot de pass</label> :
+        <input type="password" name="pass" id="pass"/>
+        <label for="confirmation">Confirmez le mot de pass</label> :
+        <input type="password" name="confirmation" id="confirmation"/>
+    </p>
+</fieldset>
+
+<input class="button" type="submit" value="Envoyer" >
+</form>
